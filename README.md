@@ -7,9 +7,9 @@
 
 Bienvenidos al Grupo Snowflake ❄️ de la Comunidad Data Engineering Latam 😊 más grande y chévere.
 
+Grupo de [Telegram](https://t.me/dataengineeringlatam_snowflake) para compartir sus dudas, comentarios y todo lo relacionado a snowflake
  <img src="https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/blob/main/images/snowflake.jpg" width="200">
  
-Grupo de [Telegram](https://t.me/dataengineeringlatam_snowflake) para compartir sus dudas, comentarios y todo lo relacionado a snowflake
 
 
 
@@ -22,6 +22,7 @@ Grupo de [Telegram](https://t.me/dataengineeringlatam_snowflake) para compartir 
 * 👉 Inscríbete en: http://bit.ly/snowflake
 
 
+## Videos
 Cada sesión es grabada :video_camera: [Canal de Youtube](https://youtube.com/c/dataengineeringlatam) suscribete, dale like, comenta y comparte: 
 
 - [Snowflake 01 - Introducción a Snowflake](https://www.youtube.com/watch?v=4RfPv7r-DBQ&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=1)
