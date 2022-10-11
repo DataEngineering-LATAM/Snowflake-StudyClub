@@ -1,4 +1,4 @@
-# Snowflake-StudyClub Data Engineering Latam ❄️❄️ ❄️ 
+# Snowflake-StudyClub Data Engineering Latam ❄️❄️❄️ 
 
 ![GitHub contributors](https://img.shields.io/github/contributors/DataEngineering-LATAM/Snowflake-StudyClub)
 ![GitHub forks](https://img.shields.io/github/forks/DataEngineering-LATAM/Snowflake-StudyClub?style=social)
@@ -10,6 +10,19 @@ Bienvenidos al Grupo Snowflake ❄️ de la Comunidad Data Engineering Latam �
  <img src="https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/blob/main/images/snowflake.jpg" width="200">
  
 Grupo de [Telegram](https://t.me/dataengineeringlatam_snowflake) para compartir sus dudas, comentarios y todo lo relacionado a snowflake
+
+
+
+
+## Temas de cada Worshop:
+
+* 🛠️ Workshop: Sobre Snowflake ❄️
+* 📅 Fecha: Todos los miércoles
+* 🕙 Hora: 19:00 Lima, Bogotá, Quito (GMT-5)
+* 👉 Inscríbete en: http://bit.ly/snowflake
+
+
+Cada sesión es grabada :video_camera: [Canal de Youtube](https://youtube.com/c/dataengineeringlatam) suscribete, dale like, comenta y comparte: 
 
 - [Snowflake 01 - Introducción a Snowflake](https://www.youtube.com/watch?v=4RfPv7r-DBQ&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=1)
 - [Snowflake 02 - Data Cloud Architecture](https://www.youtube.com/watch?v=jNNO4DIkea0&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=2)
