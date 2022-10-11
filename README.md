@@ -1,4 +1,4 @@
-# Snowflake-StudyClub Data Engineering Latam
+# Snowflake-StudyClub Data Engineering Latam ❄️❄️ ❄️ 
 
 ![GitHub contributors](https://img.shields.io/github/contributors/DataEngineering-LATAM/Snowflake-StudyClub)
 ![GitHub forks](https://img.shields.io/github/forks/DataEngineering-LATAM/Snowflake-StudyClub?style=social)
