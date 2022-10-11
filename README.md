@@ -8,6 +8,7 @@
 Bienvenidos al Grupo Snowflake ❄️ de la Comunidad Data Engineering Latam 😊 más grande y chévere.
 
 Grupo de [Telegram](https://t.me/dataengineeringlatam_snowflake) para compartir sus dudas, comentarios y todo lo relacionado a snowflake
+
  <img src="https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/blob/main/images/snowflake.jpg" width="200">
  
 
@@ -20,6 +21,7 @@ Grupo de [Telegram](https://t.me/dataengineeringlatam_snowflake) para compartir 
 * 📅 Fecha: Todos los miércoles
 * 🕙 Hora: 19:00 Lima, Bogotá, Quito (GMT-5)
 * 👉 Inscríbete en: http://bit.ly/snowflake
+
 
 
 ## Videos
