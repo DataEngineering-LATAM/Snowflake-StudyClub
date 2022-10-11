@@ -5,9 +5,10 @@
 ![GitHub stars](https://img.shields.io/github/stars/DataEngineering-LATAM/Snowflake-StudyClub?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/DataEngineering-LATAM/Snowflake-StudyClub?style=social)
 
-![](https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/blob/main/images/snowflake.jpg#center)
 
 Bienvenidos al Grupo Snowflake ❄️ de la Comunidad Data Engineering Latam 😊 más grande y chévere.
+
+ <img src="https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/blob/main/images/snowflake.jpg" width="200">
 
 Grupo de [Telegram](https://t.me/dataengineeringlatam_snowflake) para compartir sus dudas, comentarios y todo lo relacionado a Python 🐍
 
