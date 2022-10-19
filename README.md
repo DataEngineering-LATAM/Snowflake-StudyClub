@@ -15,7 +15,7 @@ Grupo de [Telegram](https://t.me/dataengineeringlatam_snowflake) para compartir 
 
 
 
-## Temas de cada Worshop:
+## Temas de cada Workshop:
 
 * 🛠️ Workshop: Sobre Snowflake ❄️
 * 📅 Fecha: Todos los miércoles
