@@ -30,6 +30,7 @@ Cada sesión es grabada :video_camera: [Canal de Youtube](https://youtube.com/c/
 - [Snowflake 01 - Introducción a Snowflake](https://www.youtube.com/watch?v=4RfPv7r-DBQ&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=1)
 - [Snowflake 02 - Data Cloud Architecture](https://www.youtube.com/watch?v=jNNO4DIkea0&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=2)
 - [Snowflake 03 - Interfaz Web Moderna](https://www.youtube.com/watch?v=5rtu46LdYqg&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=3)
+- [Snowflake 04 - Account Management](https://www.youtube.com/watch?v=YP300fpBhTs)
 
 ## Sobre la comunidad de Data Engineering Latam
 
