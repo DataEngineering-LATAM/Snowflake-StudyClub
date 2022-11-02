@@ -29,7 +29,7 @@ En esta seccion podras
 #### Workshop #1: 🛠️ Introducción a Snowflake
 Preparación y visualización de datos encontrar todos los workshops que han sido impartidos y puede
 
-* [🗒️ Código ](https://github.com/DataEngineering-LATAM/PowerBi-StudyClub/tree/main/Temporada%20-%20Workshop2022/Workshop%202:%20Analizando%20Datos%20de%20Ventas%20de%20Bicicletas 'bike_sales.csv')
+* Código: [🗒️ No hay ]
 * 📹 Seión en vivo: [Snowflake 01 - Introducción a Snowflake](https://www.youtube.com/watch?v=4RfPv7r-DBQ&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=1)
 
 #### Workshop #2: 🛠️ Introducción a Snowflake
