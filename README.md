@@ -23,6 +23,16 @@ Grupo de [Telegram](https://t.me/dataengineeringlatam_snowflake) para compartir 
 * 👉 Inscríbete en: https://bit.ly/Snowflake_DEL
 
 
+## Workshops
+En esta seccion podras
+#### Workshop #1:  Introducción a Snowflake
+Preparación y visualización de datos encontrar todos los workshops que han sido impartidos y puede
+
+* 🛠️ Workshop: Introducción a Snowflake
+* [🗒️ Script ](https://github.com/DataEngineering-LATAM/PowerBi-StudyClub/tree/main/Temporada%20-%20Workshop2022/Workshop%202:%20Analizando%20Datos%20de%20Ventas%20de%20Bicicletas 'bike_sales.csv')
+
+
+
 
 ## Videos
 Cada sesión es grabada :video_camera: [Canal de Youtube](https://youtube.com/c/dataengineeringlatam) suscribete, dale like, comenta y comparte: 
