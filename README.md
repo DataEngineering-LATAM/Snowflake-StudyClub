@@ -102,8 +102,8 @@ Preparación y visualización de datos encontrar todos los workshops que han sid
 #### Workshop #9: 🛠️ Classic Web Interface
 Snowflake brinda una interfaz web (clásica), donde todos los usuarios pueden conectarse a Snowflake para tener acceso a distintas opciones para la administración y desarrollo dentro de la plataforma. A continuación, se listan algunas funcionalidades que pueden ser realizadas dentro de dicha interfaz:
 
-✅ Crear y administrar usuarios.
-✅ Crear y usar almacenes virtuales.
+- Crear y administrar usuarios.
+- Crear y usar almacenes virtuales.
 ✅ Crear y modificar base de datos (esquemas, tablas, vistas, etc).
 ✅ Carga de datos a tablas.
 ✅ Ejecutar y monitorear consultas de datos.
