@@ -92,6 +92,20 @@ Preparación y visualización de datos encontrar todos los workshops que han sid
 * 📹 Seión en vivo: [Snowflake 08 - Semi-structured Data]( )
 
 
+#### Workshop #8: 🛠️ Loading Data
+Preparación y visualización de datos encontrar todos los workshops que han sido impartidos y puede
+
+* 🗒️ Sentencia SQL: [ No hay ]
+* 📹 Seión en vivo: [Snowflake 08 - Loading Data]( )
+
+
+#### Workshop #9: 🛠️ Classic Web Interface
+Preparación y visualización de datos encontrar todos los workshops que han sido impartidos y puede
+
+* 🗒️ Sentencia SQL: [ No hay ]
+* 📹 Seión en vivo: [Snowflake 08 - Classic Web Interface]( )
+
+
 
 ## Videos
 Cada sesión es grabada :video_camera: [Canal de Youtube](https://youtube.com/c/dataengineeringlatam) suscribete, dale like, comenta y comparte: 
