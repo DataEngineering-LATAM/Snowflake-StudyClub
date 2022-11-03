@@ -29,6 +29,7 @@ En esta seccion podras
 #### Workshop #1: 🛠️ Introducción a Snowflake
 Preparación y visualización de datos encontrar todos los workshops que han sido impartidos y puede
 
+
 * 🗒️ Sentencia SQL: [ No hay ]
 * 📹 Seión en vivo: [Snowflake 01 - Introducción a Snowflake](https://www.youtube.com/watch?v=4RfPv7r-DBQ&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=1)
 
@@ -40,6 +41,7 @@ La arquitectura de Snowflake es nativa de la nube, y es una combinación entre s
 - Capa de procesamiento de consultas.
 - Capa de servicios en la nube.
 
+
 * 🗒️ Sentencia SQL: [ No hay ]
 * 📹 Seión en vivo: [Snowflake 02 - Data Cloud Architecture](https://www.youtube.com/watch?v=jNNO4DIkea0&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=2)
 
@@ -48,6 +50,7 @@ La arquitectura de Snowflake es nativa de la nube, y es una combinación entre s
 #### Workshop #3: 🛠️ Interfaz Web Moderna
 Snowflake brinda una interfaz web moderna (snowsight), la cual permite realizar operaciones de datos y tareas de administración de snowflake desde un ambiente amigable al usuario. La interfaz web moderna es la evolución de la interfaz web clásica, debido a que incorporaron un ambiente colaborativo entre los usuarios, autocompletar las sentencias SQL, creación de dashboards, explorar y mapear las relaciones y accesos de los usuarios, análisis de las consultas (query) con facilidad, entre otras funcionalidades.
 
+
 * 🗒️ Sentencia SQL: [ No hay ]
 * 📹 Seión en vivo: [Snowflake 03 - Interfaz Web Moderna](https://www.youtube.com/watch?v=5rtu46LdYqg&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=3)
 
@@ -55,6 +58,7 @@ Snowflake brinda una interfaz web moderna (snowsight), la cual permite realizar 
 
 #### Workshop #4: 🛠️ Account Management
 Conforme las organizaciones comienzan a consumir servicios empresariales en la nube, el análisis de uso y la administración de las cuentas en servicios en la nube cobra un papel muy relevante. Es por ello que Snowflake ayuda a identificar quién, cómo y cuándo se tiene acceso a la información (base de datos, metadato, tablas, etc), así como su protección de acceso y datos.
+
 
 * 🗒️ Sentencia SQL: [ No hay ]
 * 📹 Seión en vivo: [Snowflake 04 - Account Management](https://www.youtube.com/watch?v=YP300fpBhTs)
@@ -66,6 +70,7 @@ La seguridad dentro de un data warehouse es la parte más importante de su arqui
 
 Es una buena práctica de seguridad tener a cada persona y herramienta con su propio nombre de usuario y contraseña, de esta manera, las contraseñas no se desperdician y conoce a cada persona que tiene acceso a la base de datos. Además, tenga en cuenta que es posible que no desee que todos en sus usuarios tengan acceso a Snowflake.
 
+
 * 🗒️ Sentencia SQL: [ No hay ]
 * 📹 Seión en vivo: [Snowflake 05 - Security](https://www.youtube.com/watch?v=6ftIS2g9bvE&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=5)
 
@@ -74,15 +79,8 @@ Es una buena práctica de seguridad tener a cada persona y herramienta con su pr
 #### Workshop #6: 🛠️ Database Objects
 Snowflake proporciona una amplia gama de objetos que brindan toda la funcionalidad proporcionada por la mayoría de los proveedores de plataformas de bases de datos y en algunos casos, incluso un poco más. Mediante los objetos de base de datos de Snowflake es posible construir un almacén de datos multidimensional, tan complejo o simple según sea la necesidad de quien lo implementa y por eso es importante entender su estructura y mecanismo de trabajo.
 
-A continuación, se mencionan algunos objetos de base de datos, solo como referencia:
-- Warehouse
-- Roles
-- Base de datos
-- Esquemas
-- Tables
-- Constraints
-- Vistas
-- Otros (Tablas externas, funciones de usuario, store procedure, secuencias, etc)
+A continuación, se mencionan algunos objetos de base de datos, solo como referencia: warehouse, roles, base de datos, esquemas, tables, constraints, vistas, otros (Tablas externas, funciones de usuario, store procedure, secuencias, etc)
+
 
 * 🗒️ Sentencia SQL: [ No hay ]
 * 📹 Seión en vivo: [Snowflake 06 - Database Objects](https://www.youtube.com/watch?v=qlUH3CSbtXU&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=6)
@@ -93,6 +91,7 @@ A continuación, se mencionan algunos objetos de base de datos, solo como refere
 La capa de cómputo de Snowflake, juega un papel importante dentro de la gestión de los recursos dentro de la plataforma, esto debido a que te permite incrementar o decrementar el cómputo requerido para procesar datos y por consecuencia determina el pago a realizar por dicho cómputo que ha sido utilizado. (Recordemos que la capa de cómputo está enfocada al procesamiento de datos y existe otra capa específicamente para el almacenamiento)
  
 Para determinar cómo configurar el cómputo en Snowflake, dependerá de diversas variables (número de usuarios, tamaño de datos a procesar, periodicidad en la que se procesan los datos, criticidad del proceso a consumir, entre otros), las cuales permitirán tener los servicios configurados de acuerdo a cada necesidad.
+
 
 * 🗒️ Sentencia SQL: [ No hay ]
 * 📹 Seión en vivo: [Snowflake 07 - How Snowflake Compute Works]( )
@@ -109,6 +108,7 @@ Los datos semiestructurados vienen en una variedad de formatos, según la fuente
 - Avro: Originalmente desarrollado para su uso con Apache Hadoop, Avro es un marco de trabajo de llamada a procedimiento remoto (RPC) y serialización de datos.
 - ORC: Optimized Row Columnar (ORC) es un formato de datos semiestructurados que se diseñó inicialmente para lograr una compresión más eficiente y mejorar el rendimiento para leer, escribir y procesar datos en comparación con los formatos anteriores de Hive.
 
+
 * 🗒️ Sentencia SQL: [ No hay ]
 * 📹 Seión en vivo: [Snowflake 08 - Semi-structured Data]( )
 
@@ -116,8 +116,10 @@ Los datos semiestructurados vienen en una variedad de formatos, según la fuente
 #### Workshop #9: 🛠️ Loading Data
 Snowflake te permite realizar la carga de datos mediante diferentes alternativas tales como: SnowSQL, Interface Web, línea de comando. La carga de datos es actividad de alta relevancia, debido a que hay que determinar el volumen de la información a procesar, frecuencia con la cual será cargada la información y definir si la carga de información será incremental o carga full, con el objetivo de tomar ventaja de Snowflake.
 
+
 * 🗒️ Sentencia SQL: [ No hay ]
 * 📹 Seión en vivo: [Snowflake 09 - Loading Data]( )
+
 
 
 #### Workshop #10: 🛠️ Classic Web Interface
@@ -128,6 +130,7 @@ Snowflake brinda una interfaz web (clásica), donde todos los usuarios pueden co
 - Crear y modificar base de datos (esquemas, tablas, vistas, etc).
 - Carga de datos a tablas.
 - Ejecutar y monitorear consultas de datos.
+
 
 * 🗒️ Sentencia SQL: [ No hay ]
 * 📹 Seión en vivo: [Snowflake 10 - Classic Web Interface]( )
