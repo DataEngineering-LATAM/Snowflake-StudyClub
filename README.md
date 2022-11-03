@@ -113,14 +113,14 @@ Los datos semiestructurados vienen en una variedad de formatos, según la fuente
 * 📹 Seión en vivo: [Snowflake 08 - Semi-structured Data]( )
 
 
-#### Workshop #8: 🛠️ Loading Data
+#### Workshop #9: 🛠️ Loading Data
 Snowflake te permite realizar la carga de datos mediante diferentes alternativas tales como: SnowSQL, Interface Web, línea de comando. La carga de datos es actividad de alta relevancia, debido a que hay que determinar el volumen de la información a procesar, frecuencia con la cual será cargada la información y definir si la carga de información será incremental o carga full, con el objetivo de tomar ventaja de Snowflake.
 
 * 🗒️ Sentencia SQL: [ No hay ]
-* 📹 Seión en vivo: [Snowflake 08 - Loading Data]( )
+* 📹 Seión en vivo: [Snowflake 09 - Loading Data]( )
 
 
-#### Workshop #9: 🛠️ Classic Web Interface
+#### Workshop #10: 🛠️ Classic Web Interface
 Snowflake brinda una interfaz web (clásica), donde todos los usuarios pueden conectarse a Snowflake para tener acceso a distintas opciones para la administración y desarrollo dentro de la plataforma. A continuación, se listan algunas funcionalidades que pueden ser realizadas dentro de dicha interfaz:
 
 - Crear y administrar usuarios.
@@ -130,7 +130,7 @@ Snowflake brinda una interfaz web (clásica), donde todos los usuarios pueden co
 - Ejecutar y monitorear consultas de datos.
 
 * 🗒️ Sentencia SQL: [ No hay ]
-* 📹 Seión en vivo: [Snowflake 09 - Classic Web Interface]( )
+* 📹 Seión en vivo: [Snowflake 10 - Classic Web Interface]( )
 
 
 
