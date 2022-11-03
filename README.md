@@ -36,9 +36,9 @@ Preparación y visualización de datos encontrar todos los workshops que han sid
 #### Workshop #2: 🛠️ Data Cloud Architecture
 La arquitectura de Snowflake es nativa de la nube, y es una combinación entre shared-disk y shared-nothing. Dicho diseño permite optimizar el rendimiento individual de sus tres capas de las que está compuesta Snowflake:
 
-- Capa de almacenamiento de base de datos.
-- Capa de procesamiento de consultas.
-- Capa de servicios en la nube.
+✅ Capa de almacenamiento de base de datos.
+✅ Capa de procesamiento de consultas.
+✅ Capa de servicios en la nube.
 
 * 🗒️ Sentencia SQL: [ No hay ]
 * 📹 Seión en vivo: [Snowflake 02 - Data Cloud Architecture](https://www.youtube.com/watch?v=jNNO4DIkea0&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=2)
@@ -100,7 +100,13 @@ Preparación y visualización de datos encontrar todos los workshops que han sid
 
 
 #### Workshop #9: 🛠️ Classic Web Interface
-Preparación y visualización de datos encontrar todos los workshops que han sido impartidos y puede
+Snowflake brinda una interfaz web (clásica), donde todos los usuarios pueden conectarse a Snowflake para tener acceso a distintas opciones para la administración y desarrollo dentro de la plataforma. A continuación, se listan algunas funcionalidades que pueden ser realizadas dentro de dicha interfaz:
+
+✅ Crear y administrar usuarios.
+✅ Crear y usar almacenes virtuales.
+✅ Crear y modificar base de datos (esquemas, tablas, vistas, etc).
+✅ Carga de datos a tablas.
+✅ Ejecutar y monitorear consultas de datos.
 
 * 🗒️ Sentencia SQL: [ No hay ]
 * 📹 Seión en vivo: [Snowflake 09 - Classic Web Interface]( )
