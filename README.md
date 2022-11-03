@@ -103,7 +103,7 @@ Preparación y visualización de datos encontrar todos los workshops que han sid
 Preparación y visualización de datos encontrar todos los workshops que han sido impartidos y puede
 
 * 🗒️ Sentencia SQL: [ No hay ]
-* 📹 Seión en vivo: [Snowflake 08 - Classic Web Interface]( )
+* 📹 Seión en vivo: [Snowflake 09 - Classic Web Interface]( )
 
 
 
