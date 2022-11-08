@@ -51,7 +51,7 @@ La arquitectura de Snowflake es nativa de la nube, y es una combinación entre s
 Snowflake brinda una interfaz web moderna (snowsight), la cual permite realizar operaciones de datos y tareas de administración de snowflake desde un ambiente amigable al usuario. La interfaz web moderna es la evolución de la interfaz web clásica, debido a que incorporaron un ambiente colaborativo entre los usuarios, autocompletar las sentencias SQL, creación de dashboards, explorar y mapear las relaciones y accesos de los usuarios, análisis de las consultas (query) con facilidad, entre otras funcionalidades.
 
 
-* 🗒️ Sentencia SQL: [ No hay ]
+* 🗒️ Sentencia SQL: [Script](https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/blob/main/Scripts/Sesion%2003/modern_web_interface.sql)
 * 📹 Seión en vivo: [Snowflake 03 - Interfaz Web Moderna](https://www.youtube.com/watch?v=5rtu46LdYqg&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=3)
 
 
