@@ -1,0 +1,7 @@
+USE DATABASE SALES_DB;
+
+USE SCHEMA PUBLIC;
+
+CREATE OR REPLACE STAGE SALES_STAGE;
+
+PUT file://C:\Users\LighthouseLLC\.snowsql\iowa_sales*.csv @SALES_STAGE;
