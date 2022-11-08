@@ -110,7 +110,7 @@ Los datos semiestructurados vienen en una variedad de formatos, según la fuente
 
 
 * 🗒️ Sentencia SQL: [Script](https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/tree/main/Scripts/Sesion%2008)
-* 📹 Seión en vivo: [Snowflake 08 - Semi-structured Data]( )
+* 📹 Seión en vivo: [Snowflake 08 - Semi-structured Data](https://www.youtube.com/watch?v=SwvBKw1mDLk)
 
 
 #### Workshop #9: 🛠️ Loading Data
