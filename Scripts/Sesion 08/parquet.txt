@@ -1,0 +1,102 @@
+--CREANDO FORMATO PARQUET
+CREATE OR REPLACE FILE FORMAT TEST.PUBLIC.PARQUET_FORMAT
+    TYPE = 'parquet';
+
+--CREANDO STAGE
+CREATE OR REPLACE STAGE TEST.PUBLIC.PARQUETSTAGE
+    url = <url>  
+    FILE_FORMAT = TEST.PUBLIC.PARQUET_FORMAT;
+    
+
+--SE VISUALIZA INFORMACIÓN DEL STAGE   
+SELECT * 
+FROM  @TEST.PUBLIC.PARQUETSTAGE
+(file_format => 'TEST.PUBLIC.PARQUET_FORMAT')
+
+--SELECCIONANDO CAMPOS DEL STAGE
+SELECT 
+$1:__index_level_0__,
+$1:cat_id,
+$1:date,
+$1:"__index_level_0__",
+$1:"cat_id",
+$1:"date",
+$1:"dept_id",
+$1:"id",
+$1:"item_id",
+$1:"state_id",
+$1:"store_id",
+$1:"value"
+FROM @TEST.PUBLIC.PARQUETSTAGE
+
+--PARSEANDO CAMPOS DEL STAGE
+SELECT 
+$1:__index_level_0__::int as index_level,
+$1:cat_id::VARCHAR(50) as category,
+DATE($1:date::int ) as Date,
+$1:"dept_id"::VARCHAR(50) as Dept_ID,
+$1:"id"::VARCHAR(50) as ID,
+$1:"item_id"::VARCHAR(50) as Item_ID,
+$1:"state_id"::VARCHAR(50) as State_ID,
+$1:"store_id"::VARCHAR(50) as Store_ID,
+$1:"value"::int as value
+FROM @TEST.PUBLIC.PARQUETSTAGE
+
+
+--metadata
+SELECT 
+$1:__index_level_0__::int as index_level,
+$1:cat_id::VARCHAR(50) as category,
+DATE($1:date::int ) as Date,
+$1:"dept_id"::VARCHAR(50) as Dept_ID,
+$1:"id"::VARCHAR(50) as ID,
+$1:"item_id"::VARCHAR(50) as Item_ID,
+$1:"state_id"::VARCHAR(50) as State_ID,
+$1:"store_id"::VARCHAR(50) as Store_ID,
+$1:"value"::int as value,
+METADATA$FILENAME file_name,
+METADATA$FILE_ROW_NUMBER as rowNum,
+to_timestamp_ntz(current_timestamp) as loadDate
+FROM @TEST.PUBLIC.PARQUETSTAGE
+
+--CREAR TABLA
+CREATE OR REPLACE TABLE TEST.PUBLIC.PARQUET_DATA (
+    ROW_NUMBER int,
+    index_level int,
+    cat_id VARCHAR(50),
+    date date,
+    dept_id VARCHAR(50),
+    id VARCHAR(50),
+    item_id VARCHAR(50),
+    state_id VARCHAR(50),
+    store_id VARCHAR(50),
+    value int,
+    Load_date timestamp default TO_TIMESTAMP_NTZ(current_timestamp))
+    
+--COPIAR INFORMACIÓN A LA TABLA CREADA ANTERIORMENTE   
+COPY INTO TEST.PUBLIC.PARQUET_DATA
+    FROM (SELECT 
+            METADATA$FILE_ROW_NUMBER,
+            $1:__index_level_0__::int,
+            $1:cat_id::VARCHAR(50),
+            DATE($1:date::int ),
+            $1:"dept_id"::VARCHAR(50),
+            $1:"id"::VARCHAR(50),
+            $1:"item_id"::VARCHAR(50),
+            $1:"state_id"::VARCHAR(50),
+            $1:"store_id"::VARCHAR(50),
+            $1:"value"::int,
+            TO_TIMESTAMP_NTZ(current_timestamp)
+        FROM @TEST.PUBLIC.PARQUETSTAGE);
+        
+    
+SELECT * FROM TEST.PUBLIC.PARQUET_DATA;
+
+-----INFERENCIA DE ESQUEMA
+select *
+from table (
+infer_schema (
+location => '@TEST.PUBLIC.PARQUETSTAGE',
+file_format => 'TEST.PUBLIC.PARQUET_FORMAT'
+)
+)

@@ -1,0 +1,235 @@
+--CREAR WAREHOUSE
+CREATE WAREHOUSE PRUEBA
+
+--USAR WAREHOUSE
+USE WAREHOUSE PRUEBA
+
+--CREAR BASE DE DATOS
+CREATE DATABASE test 
+
+--USAR BASE DE DATOS
+USE DATABASE test
+
+--USAR ESQUEMA
+USE SCHEMA public
+
+------------------------------------------------------------JSON-----------------------------------------------------------------
+--CREEMOS UN STAGE. LA DATA SE ENCUENTRA EN AWS S3.
+CREATE OR REPLACE stage TEST.PUBLIC.JSONSTAGE
+     url=<url>;
+
+list @TEST.PUBLIC.JSONSTAGE;
+
+--CREEMOS UNA TABLA. ESTA ES LA QUE USAREMOS A LO LARGO DEL WORKSHOP
+create table JSON_RAW (Raw variant);
+
+--CREAR FILE FORMAT
+create  or replace file format TEST.PUBLIC.JSONFORMAT
+    TYPE = json;
+
+truncate table TEST.PUBLIC.JSON_RAW;
+
+--CARGUEMOS LA INFORMACIÓN A LA TABLA
+copy into TEST.PUBLIC.JSON_RAW
+FROM @TEST.PUBLIC.JSONSTAGE
+file_format = TEST.PUBLIC.JSONFORMAT
+files = ('HR_data.json');
+
+
+
+SELECT *
+FROM TEST.PUBLIC.JSON_RAW
+LIMIT 5
+
+select raw:id,
+       raw:first_name,
+       raw:last_name,
+       raw:gender,
+       raw:city
+from TEST.PUBLIC.JSON_RAW
+
+--PARSEAR LOS VALORES
+select raw:id::int id,
+       raw:first_name::string first_name,
+       raw:last_name::string last_name,
+       raw:gender::string gender,
+       raw:city::string city
+from TEST.PUBLIC.JSON_RAW
+
+--JSON DE JSON
+select raw:id::int id,
+       raw:first_name::string first_name,
+       raw:last_name::string last_name,
+       raw:gender::string gender,
+       raw:job.salary::decimal salary,
+       raw:job.title::string title
+from TEST.PUBLIC.JSON_RAW
+
+
+------------------------------------------------------------ARRAY-----------------------------------------------------------------
+
+select array_size(raw:prev_company)
+from TEST.PUBLIC.JSON_RAW
+
+select raw:id::int id,
+       raw:first_name::string first_name,
+       raw:last_name::string last_name,
+       raw:gender::string gender,
+       raw:job.salary::decimal salary,
+       raw:job.title::string title,
+       raw:prev_company as prevCompany
+from TEST.PUBLIC.JSON_RAW
+
+select raw:id::int id,
+       raw:first_name::string first_name,
+       raw:last_name::string last_name,
+       raw:gender::string gender,
+       raw:job.salary::decimal salary,
+       raw:job.title::string title,
+       raw:prev_company as prevCompanyArray,
+       raw:prev_company[0]::string as firstPrevCompany
+from TEST.PUBLIC.JSON_RAW
+
+
+select raw:id::int id,
+       raw:first_name::string first_name,
+       raw:last_name::string last_name,
+       raw:gender::string gender,
+       raw:job.salary::decimal salary,
+       raw:job.title::string title,
+       raw:prev_company as prevCompanyArray,
+       raw:prev_company[0]::string as prevCompany
+from TEST.PUBLIC.JSON_RAW
+
+UNION
+
+select raw:id::int id,
+       raw:first_name::string first_name,
+       raw:last_name::string last_name,
+       raw:gender::string gender,
+       raw:job.salary::decimal salary,
+       raw:job.title::string title,
+       raw:prev_company as prevCompanyArray,
+       raw:prev_company[1]::string as prevCompany
+from TEST.PUBLIC.JSON_RAW
+
+ORDER BY id
+
+-JERARQUIAS
+select array_size(raw:spoken_languages)
+from TEST.PUBLIC.JSON_RAW
+
+select raw:id::int id,
+       raw:first_name::string first_name,
+       raw:last_name::string last_name,
+       raw:gender::string gender,
+       raw:job.salary::decimal salary,
+       raw:job.title::string title,
+       raw:prev_company as prevCompanyArray,
+       raw:prev_company[0]::string as prevCompany,
+       raw:prev_company[1]::string as prevCompany2,
+       raw:spoken_languages as spokenLanguagesArray,
+       raw:spoken_languages[0] as spokenLanguagesJson
+from TEST.PUBLIC.JSON_RAW
+
+
+select raw:id::int id,
+       raw:first_name::string first_name,
+       raw:last_name::string last_name,
+       raw:gender::string gender,
+       raw:job.salary::decimal salary,
+       raw:job.title::string title,
+       raw:prev_company as prevCompanyArray,
+       raw:prev_company[0]::string as prevCompany,
+       raw:prev_company[1]::string as prevCompany2,
+       raw:spoken_languages as spokenLanguagesArray,
+       raw:spoken_languages[0] as spokenLanguagesJson,
+       raw:spoken_languages[0].language as language,
+       raw:spoken_languages[0].level as level
+from TEST.PUBLIC.JSON_RAW
+order by 1
+
+
+select raw:id::int id,
+       raw:first_name::string first_name,
+       raw:last_name::string last_name,
+       raw:gender::string gender,
+       raw:job.salary::decimal salary,
+       raw:job.title::string title,
+       raw:spoken_languages as spokenLanguagesArray,
+       raw:spoken_languages[0] as spokenLanguagesJson,
+       raw:spoken_languages[0].language as language,
+       raw:spoken_languages[0].level as level
+from TEST.PUBLIC.JSON_RAW
+
+union all
+
+select raw:id::int id,
+       raw:first_name::string first_name,
+       raw:last_name::string last_name,
+       raw:gender::string gender,
+       raw:job.salary::decimal salary,
+       raw:job.title::string title,
+       raw:spoken_languages as spokenLanguagesArray,
+       raw:spoken_languages[1] as spokenLanguagesJson,
+       raw:spoken_languages[1].language as language,
+       raw:spoken_languages[1].level as level
+from TEST.PUBLIC.JSON_RAW
+
+union all
+
+select raw:id::int id,
+       raw:first_name::string first_name,
+       raw:last_name::string last_name,
+       raw:gender::string gender,
+       raw:job.salary::decimal salary,
+       raw:job.title::string title,
+       raw:spoken_languages as spokenLanguagesArray,
+       raw:spoken_languages[2] as spokenLanguagesJson,
+       raw:spoken_languages[2].language as language,
+       raw:spoken_languages[2].level as level
+from TEST.PUBLIC.JSON_RAW
+order by 1
+
+
+
+-usemos el flatten
+select
+        raw:id::int id,
+        raw:first_name::string first_name,
+        raw:last_name::string last_name,
+        raw:gender::string gender,
+        raw:job.salary::decimal salary,
+        raw:job.title::string title,
+        raw:spoken_languages as spokenLanguagesArray,
+        f.value:language::string,
+        f.value:level::string
+from TEST.PUBLIC.JSON_RAW, table(flatten(raw:spoken_languages)) f
+
+
+
+// Opción 1: CREATE TABLE AS
+
+CREATE OR REPLACE TABLE Languages AS
+select
+      raw:first_name::STRING as First_name,
+    f.value:language::STRING as First_language,
+   f.value:level::STRING as Level_spoken
+from TEST.PUBLIC.JSON_RAW, table(flatten(raw:spoken_languages)) f;
+
+SELECT * FROM Languages;
+
+truncate table languages;
+
+// Option 2: INSERT INTO
+
+INSERT INTO Languages
+select
+      raw:first_name::STRING as First_name,
+    f.value:language::STRING as First_language,
+   f.value:level::STRING as Level_spoken
+from TEST.PUBLIC.JSON_RAW, table(flatten(raw:spoken_languages)) f;
+
+
+SELECT * FROM Languages;
+

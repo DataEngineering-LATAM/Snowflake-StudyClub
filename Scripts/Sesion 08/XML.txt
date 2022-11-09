@@ -1,0 +1,14 @@
+SELECT * FROM TEST.PUBLIC.TREASURY_AUCTION_XML;
+
+SELECT src_xml:"$" FROM treasury_auction_xml;
+
+SELECT XMLGET(src_xml, 'AuctionAnnouncement', 0) 
+FROM TEST.PUBLIC.TREASURY_AUCTION_XML;
+
+
+SELECT XMLGET(value, 'SecurityType' ):"$" as securityType,
+XMLGET( value, 'MaturityDate' ):"$" as maturityDate,
+XMLGET( value, 'OfferingAmount' ):"$" as offeringAmount,
+XMLGET( value, 'MatureSecurityAmount' ):"$" as matureSecurityAmount
+FROM treasury_auction_xml,
+LATERAL FLATTEN(to_array(treasury_auction_xml.src_xml:"$" )) auction_announcement;
