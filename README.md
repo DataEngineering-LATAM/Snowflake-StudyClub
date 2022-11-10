@@ -19,7 +19,7 @@ Grupo de [Telegram](https://t.me/dataengineeringlatam_snowflake) para compartir 
 
 * 🛠️ Workshop: Sobre Snowflake ❄️
 * 📅 Fecha: Todos los miércoles
-* 🕙 Hora: 19:00 Lima, Bogotá, Quito (GMT-5)
+* 🕙 Hora: 20:00 Lima, Bogotá, Quito (GMT-5)
 * 👉 Inscríbete en: https://bit.ly/Snowflake_DEL
 
 
