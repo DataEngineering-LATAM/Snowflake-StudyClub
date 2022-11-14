@@ -43,7 +43,7 @@ La arquitectura de Snowflake es nativa de la nube, y es una combinación entre s
 
 
 * 🗒️ Sentencia SQL: [ No hay ]
-* 📹 Seión en vivo: [Snowflake 02 - Data Cloud Architecture](https://www.youtube.com/watch?v=jNNO4DIkea0&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=2)
+* 📹 Sesión en vivo: [Snowflake 02 - Data Cloud Architecture](https://www.youtube.com/watch?v=jNNO4DIkea0&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=2)
 
 
 
@@ -52,7 +52,7 @@ Snowflake brinda una interfaz web moderna (snowsight), la cual permite realizar 
 
 
 * 🗒️ Sentencia SQL: [Script](https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/blob/main/Scripts/Sesion%2003)
-* 📹 Seión en vivo: [Snowflake 03 - Interfaz Web Moderna](https://www.youtube.com/watch?v=5rtu46LdYqg&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=3)
+* 📹 Sesión en vivo: [Snowflake 03 - Interfaz Web Moderna](https://www.youtube.com/watch?v=5rtu46LdYqg&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=3)
 
 
 
@@ -61,7 +61,7 @@ Conforme las organizaciones comienzan a consumir servicios empresariales en la n
 
 
 * 🗒️ Sentencia SQL: [Script](https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/blob/main/Scripts/Sesion%2004)
-* 📹 Seión en vivo: [Snowflake 04 - Account Management](https://www.youtube.com/watch?v=YP300fpBhTs)
+* 📹 Sesión en vivo: [Snowflake 04 - Account Management](https://www.youtube.com/watch?v=YP300fpBhTs)
 
 
 
@@ -83,7 +83,7 @@ A continuación, se mencionan algunos objetos de base de datos, solo como refere
 
 
 * 🗒️ Sentencia SQL: [Script](https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/tree/main/Scripts/Sesion%2006)
-* 📹 Seión en vivo: [Snowflake 06 - Database Objects](https://www.youtube.com/watch?v=qlUH3CSbtXU&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=6)
+* 📹 Sesión en vivo: [Snowflake 06 - Database Objects](https://www.youtube.com/watch?v=qlUH3CSbtXU&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=6)
 
 
 
@@ -94,7 +94,7 @@ Para determinar cómo configurar el cómputo en Snowflake, dependerá de diversa
 
 
 * 🗒️ Sentencia SQL: [Script](https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/tree/main/Scripts/Sesion%2007)
-* 📹 Seión en vivo: [Snowflake 07 - How Snowflake Compute Works](https://www.youtube.com/watch?v=ZfG0w4pi6H8)
+* 📹 Sesión en vivo: [Snowflake 07 - How Snowflake Compute Works](https://www.youtube.com/watch?v=ZfG0w4pi6H8)
 
 
 
@@ -110,7 +110,7 @@ Los datos semiestructurados vienen en una variedad de formatos, según la fuente
 
 
 * 🗒️ Sentencia SQL: [Script](https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/tree/main/Scripts/Sesion%2008)
-* 📹 Seión en vivo: [Snowflake 08 - Semi-structured Data](https://www.youtube.com/watch?v=SwvBKw1mDLk)
+* 📹 Sesión en vivo: [Snowflake 08 - Semi-structured Data](https://www.youtube.com/watch?v=SwvBKw1mDLk)
 
 
 #### Workshop #9: 🛠️ Loading Data
@@ -118,7 +118,7 @@ Snowflake te permite realizar la carga de datos mediante diferentes alternativas
 
 
 * 🗒️ Sentencia SQL: [Script](https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/tree/main/Scripts/Sesion%2009)
-* 📹 Seión en vivo: [Snowflake 09 - Loading Data]( )
+* 📹 Sesión en vivo: [Snowflake 09 - Loading Data]( )
 
 
 
@@ -133,7 +133,7 @@ Snowflake brinda una interfaz web (clásica), donde todos los usuarios pueden co
 
 
 * 🗒️ Sentencia SQL: [Script](https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/tree/main/Scripts/Sesion%2010)
-* 📹 Seión en vivo: [Snowflake 10 - Classic Web Interface](https://www.youtube.com/watch?v=iBtnb10R5PQ)
+* 📹 Sesión en vivo: [Snowflake 10 - Classic Web Interface](https://www.youtube.com/watch?v=iBtnb10R5PQ)
 
 
 
