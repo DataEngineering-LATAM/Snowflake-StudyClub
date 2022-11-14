@@ -31,7 +31,7 @@ Preparación y visualización de datos encontrar todos los workshops que han sid
 
 
 * 🗒️ Sentencia SQL: [ No hay ]
-* 📹 Seión en vivo: [Snowflake 01 - Introducción a Snowflake](https://www.youtube.com/watch?v=4RfPv7r-DBQ&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=1)
+* 📹 Sesión en vivo: [Snowflake 01 - Introducción a Snowflake](https://www.youtube.com/watch?v=4RfPv7r-DBQ&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=1)
 
 
 #### Workshop #2: 🛠️ Data Cloud Architecture
@@ -72,7 +72,7 @@ Es una buena práctica de seguridad tener a cada persona y herramienta con su pr
 
 
 * 🗒️ Sentencia SQL: [Script](https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/blob/main/Scripts/Sesion%2005)
-* 📹 Seión en vivo: [Snowflake 05 - Security](https://www.youtube.com/watch?v=6ftIS2g9bvE&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=5)
+* 📹 Sesión en vivo: [Snowflake 05 - Security](https://www.youtube.com/watch?v=6ftIS2g9bvE&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=5)
 
 
 
