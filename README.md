@@ -132,7 +132,7 @@ Snowflake brinda una interfaz web (clásica), donde todos los usuarios pueden co
 - Ejecutar y monitorear consultas de datos.
 
 
-* 🗒️ Sentencia SQL: [https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/tree/main/Scripts/Sesion%2010]
+* 🗒️ Sentencia SQL: [Script](https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/tree/main/Scripts/Sesion%2010)
 * 📹 Seión en vivo: [Snowflake 10 - Classic Web Interface](https://www.youtube.com/watch?v=iBtnb10R5PQ)
 
 
