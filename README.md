@@ -94,7 +94,7 @@ Para determinar cómo configurar el cómputo en Snowflake, dependerá de diversa
 
 
 * 🗒️ Sentencia SQL: [Script](https://github.com/DataEngineering-LATAM/Snowflake-StudyClub/tree/main/Scripts/Sesion%2007)
-* 📹 Seión en vivo: [Snowflake 07 - How Snowflake Compute Works]( )
+* 📹 Seión en vivo: [Snowflake 07 - How Snowflake Compute Works](https://www.youtube.com/watch?v=ZfG0w4pi6H8)
 
 
 
@@ -133,7 +133,7 @@ Snowflake brinda una interfaz web (clásica), donde todos los usuarios pueden co
 
 
 * 🗒️ Sentencia SQL: [ No hay ]
-* 📹 Seión en vivo: [Snowflake 10 - Classic Web Interface]( )
+* 📹 Seión en vivo: [Snowflake 10 - Classic Web Interface](https://www.youtube.com/watch?v=iBtnb10R5PQ)
 
 
 
