@@ -146,6 +146,10 @@ Cada sesión es grabada :video_camera: [Canal de Youtube](https://youtube.com/c/
 - [Snowflake 04 - Account Management](https://www.youtube.com/watch?v=YP300fpBhTs)
 - [Snowflake 05 - Security](https://www.youtube.com/watch?v=6ftIS2g9bvE&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=5)
 - [Snowflake 06 - Database Objects](https://www.youtube.com/watch?v=qlUH3CSbtXU&list=PLdxuOh58KNA4ycGTT4DBdwk-izQUR1Psi&index=6)
+- [Snowflake 07 - How Snowflake Compute Works](https://www.youtube.com/watch?v=ZfG0w4pi6H8)
+- [Snowflake 08 - Semi-structured Data](https://www.youtube.com/watch?v=SwvBKw1mDLk)
+- [Snowflake 09 - Loading Data]( )
+- [Snowflake 10 - Classic Web Interface](https://www.youtube.com/watch?v=iBtnb10R5PQ)
 
 ## Sobre la comunidad de Data Engineering Latam
 
